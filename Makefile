@@ -1,7 +1,7 @@
 # build file
 GOCMD=go
 # Use -a flag to prevent code cache problems.
-GOBUILD=$(GOCMD) build -ldflags -s -v -i
+GOBUILD=$(GOCMD) build -ldflags -s -v
 
 BIN_BINARY_NAME=docker-events-monitor
 monitor:
